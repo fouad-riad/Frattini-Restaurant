@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>06/5503707 Ristorante con griglieria Monteverde</title>
+    <meta
+      name="description"
+      content="Ristorante, pizzeria, griglieria con area giochi per bambini. Caffetteria e Aperitivi con ampio spazio esterno. In zona monteverde-portuense"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="stili/frattini.css" />
+    <!-- favicon.ico -> 16x16px-->
+    <link rel="shortcut icon" href="immagini/logo.png" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="immagini/logo.png"
+          alt="Logo di Ciclostazione Frattini"
+          id="logo"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">Aperitivo</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Ristorante</a></li>
+          <li><a href="#">Pizzeria</a></li>
+          <li><a href="#">Griglia</a></li>
+          <li><a href="#">Spazio bambini</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="contatti.html" class="active">Contatti</a></li>
+
+          <li class="social">
+            <a
+              href="https://www.facebook.com/CiclostazioneFrattini/"
+              target="_blank"
+              class="facebook"
+            ></a>
+          </li>
+          <li class="social">
+            <a
+              href="https://www.instagram.com/ciclostazionefrattini/"
+              target="_blank"
+              class="insta"
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contain boxHeightAuto">
+      <section class="box100">
+        <article>
+          <h1>CONTATTI</h1>
+
+          <p>Via P. Frattini 136/138 – 00149 Roma</p>
+
+          <p>Tel: <a href="tel:065503707">06/5503707</a></p>
+
+          <p>Fax: +39 06/55290948</p>
+
+          <p>
+            <a href="mailto:info@ciclostazionefrattini.it"
+              >info@ciclostazionefrattini.it</a
+            >
+          </p>
+
+          <h4>ORARI APERTURE</h4>
+          <p>
+            Dal lunedì al venerdì 17:30 – 00:30 <br />Sabato e domenica 12:00 –
+            00:30
+          </p>
+          <video
+            controls
+            muted
+            loop
+            poster="immagini/chef-preparazione-piatto.jpg"
+          >
+            <source src="video/Promo_Video.mp4" />
+            <source src="video/Promo-Video.webm" />
+          </video>
+        </article>
+      </section>
+    </div>
+
+    <div class="contain">
+      <section class="box50">
+        <article">
+          <h4>Ottieni informazioni stradali</h4>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.8588724964216!2d12.444837275981698!3d41.852864371244536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258ac89ba46e47%3A0x695874e64c2fe0ab!2sCiclostazione%20Frattini!5e0!3m2!1sit!2sit!4v1688723539419!5m2!1sit!2sit"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
+      </section>
+
+      <section class="box50">
+        <article>
+          <h2>LAVORA CON NOI</h2>
+          <p>
+            Ci impegniamo quotidianamente nella ricerca e crescita del nostro
+            team, con l’obiettivo di far felici i nostri clienti.
+          </p>
+
+          <form action="pagina.jsp" method="get" id="lavora">
+            <ul>
+              <li>
+                <label for="nome">Nome</label>
+                <input
+                  type="text"
+                  placeholder="Nome"
+                  id="nome"
+                  name="camponome"
+                  maxlength="80"
+                  value="Mario"
+                />
+              </li>
+              <li>
+                <input
+                  type="text"
+                  placeholder="Cognome"
+                  name="cognome"
+                  autocomplete="off"
+                />
+              </li>
+              <li>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  autocomplete="off"
+                />
+              </li>
+
+              <li>
+                <label>La tua età</label>
+                <select name="eta">
+                  <option></option>
+                  <option>18-21</option>
+                  <option>22-25</option>
+                  <option>26-29</option>
+                  <option>30-33</option>
+                  <option>34-37</option>
+                  <option>38-41</option>
+                </select>
+              </li>
+
+              <li class="centraTesto">
+                <p>Qualcosa su di te (max 500 caratteri)</p>
+                <textarea name="testo" maxlength="500"></textarea>
+              </li>
+
+              <li class="centraTesto">
+                <label for="cv">Allega il tuo CV:</label>
+                <br />
+                <input type="file" name="cv" class="noStyle" id="cv" />
+              </li>
+
+              <li class="centraTesto">
+                <label for="privacy" class="link"
+                  >accetto le norme sulla privacy</label
+                >
+                <input type="checkbox" id="privacy" class="noStyle" />
+              </li>
+
+              <li>
+                <button>Invia i dati</button>
+              </li>
+            </ul>
+          </form>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+colore verde: #566754
+colore giallo: #e9d88c
+colore verde del footer: #7c8477
+

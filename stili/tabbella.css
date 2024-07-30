@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2em;
+}
+h1 {
+  text-align: center;
+}
+table {
+  /*  border: solid 2px black;*/
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+table td {
+  border: solid 1px black;
+  padding: 8px;
+  vertical-align: middle;
+}
+table caption {
+  background-color: aliceblue;
+  text-align: left;
+  padding: 15px;
+}
+table thead {
+  font-weight: bold;
+  background-color: blueviolet;
+  color: bisque;
+}
+table tfoot {
+  background-color: black;
+  text-align: center;
+  color: red;
+}
